@@ -43,7 +43,7 @@ Where:
 1. **Build adjacency matrix**  
 
 ```bash
-   Rscript build_wgcna_adjacency.R
+Rscript build_wgcna_adjacency.R
 ```
 
    Build an adjacency matrix based on the training-set expression matrix and output `adjacency_matrix.csv`.
@@ -51,7 +51,7 @@ Where:
 2. **Train the model**  
 
 ```bash
-   python train_survival_gat.py
+python train_survival_gat.py
 ```
    
    Train the GAT survival model and save a checkpoint (including model parameters and training configuration).
@@ -59,14 +59,14 @@ Where:
 3. **Inference**  
 
 ```bash
-   python infer_survival_risk.py
+python infer_survival_risk.py
 ```
 
    Load the checkpoint and output risk scores (hazard scores) for the specified dataset.
 
 4. **Model explanation**  
 ```base
-   python explain_survival_shapley.py
+python explain_survival_shapley.py
 ```
 
    Run node-level Shapley explanations for specified patients and estimate each node's contribution to the predicted hazard.
@@ -102,4 +102,5 @@ Where:
 ## Disclaimer
 
 This code is for research purposes only and does not constitute medical advice. The authors assume no responsibility for any direct or indirect consequences arising from the use of this project. Users are responsible for ensuring that their data processing, study design, and result interpretation comply with the ethical and regulatory requirements of their institutions and target journals.
+
 
