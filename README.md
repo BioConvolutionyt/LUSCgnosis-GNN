@@ -99,8 +99,18 @@ python explain_survival_shapley.py
 
 ---
 
+## Acknowledgements and References
+
+The implementation of this project draws upon the following open-source projects and their associated research papers, to which we extend our gratitude:
+
+- **GitHub**: [`TencentAILabHealthcare/MLA-GNN`](https://github.com/TencentAILabHealthcare/MLA-GNN)
+- **Reference**: Xing, X., Yang, F., Li, H., Zhang, J., Zhao, Y., Gao, M., Huang, J., & Yao, J. (2022). *Multi-level attention graph neural network based on co-expression gene modules for disease diagnosis and prognosis*. Bioinformatics.
+
+---
+
 ## Disclaimer
 
 This code is for research purposes only and does not constitute medical advice. The authors assume no responsibility for any direct or indirect consequences arising from the use of this project. Users are responsible for ensuring that their data processing, study design, and result interpretation comply with the ethical and regulatory requirements of their institutions and target journals.
+
 
 
