@@ -1,5 +1,9 @@
 # LUSCgnosis-GNN
 
+<p align="center">
+  <img src="figure/Architecture%20Diagram.png" alt="LUSCgnosis-GNN architecture diagram" width="900">
+</p>
+
 LUSCgnosis-GNN is the official code implementation of a research project developing a prognostic prediction model for lung squamous cell carcinoma (LUSC). The model is built upon a **graph neural network (Graph Attention Network, GAT)**, learns patient-level risk representations on a graph constructed from a gene co-expression network, and outputs hazard scores for survival analysis.
 
 ---
